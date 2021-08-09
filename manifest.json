@@ -1,0 +1,38 @@
+{
+  "name": "claro-media-celsia",
+  "vendor": "celsia",
+  "version": "0.0.1",
+  "title": "Claro-Media",
+  "description": "Claro Media",
+  "billingOptions": {
+    "termsURL": "",
+    "support": {
+      "url": ""
+    },
+    "free": true,
+    "type": "free",
+    "availableCountries": [
+      "*"
+    ]
+  },
+  "builders": {
+    "pixel": "0.x",
+    "react": "3.x",
+    "store": "0.x"
+  },
+  "dependencies": {
+    "vtex.pixel-interfaces": "1.x"
+  },
+  "settingsSchema": {
+    "title": "Claro Media",
+    "type": "object",
+    "properties": {
+      "custom": {
+        "title": "CUSTOM FIELD",
+        "description": "custom field",
+        "type": "string"
+      }
+    }
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
